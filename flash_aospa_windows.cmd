@@ -1,5 +1,5 @@
 @echo off
-:: Flash AOSPA fastboot zip on marble
+:: Flash AOSPA fastboot zip on miatoll
 :: Author: Adithya R (@ghostrider_reborn)
 
 if exist "%~dp0aospa.zip" (

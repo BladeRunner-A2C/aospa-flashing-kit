@@ -1,17 +1,14 @@
-# AOSPA flashing kit for Marble
+# AOSPA flashing kit for MiAtoll
 
-Scripts to flash firmware and ROM on windows/mac/linux, including latest platform-tools and drivers, for AOSPA - Poco F5 / Redmi Note 12 Turbo.
+Scripts to flash ROM on windows/mac/linux, including latest platform-tools and drivers, for AOSPA - Xiaomi POCO M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max / Redmi Note 10 Lite.
 
 ## Steps
 
-1. Download the latest fastboot package from https://paranoidandroid.co/marble/
+1. Download the latest fastboot package from https://paranoidandroid.co/miatoll/
 2. Copy it to this folder and rename it to aospa.zip
-3. Download the latest Android 14 firmware for your variant from https://xiaomifirmwareupdater.com/firmware/marble/
-4. Copy it to this folder and rename it to firmware.zip
-5. Run install_google_usb_driver (Windows users only; requires admin)
-6. Reboot to bootloader (`adb reboot bootloader` OR shutdown phone and long press power + volume down button)
-7. Run flash_firmware
-8. Run flash_aospa
+3. Run install_google_usb_driver (Windows users only; requires admin)
+4. Reboot to bootloader (`adb reboot bootloader` OR shutdown phone and long press power + volume down button)
+5. Run flash_aospa
 
 ### Notes
 - `.cmd` scripts are for windows, can be run by right click -> run as administrator.
